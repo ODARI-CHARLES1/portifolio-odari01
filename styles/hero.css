@@ -41,7 +41,7 @@
 }
 
 .btns .contact_btn{
-    width: 200px;
+    width: fit-content;
     border: none;
     height: 40px;
     color: var(--dark-gray);
@@ -51,7 +51,7 @@
     font-size:16px;
 }
 .btns .explore_btn{
-    width: 200px;
+    width: fit-content;
     border: 2px solid var(--yellow);
     height: 40px;
     color: var(--dark-gray);
