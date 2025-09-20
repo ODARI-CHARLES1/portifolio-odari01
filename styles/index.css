@@ -1,0 +1,41 @@
+@import url("../styles/responsive.css");
+@import url("../styles/footer.css");
+@import url("../styles/testimonial.css");
+@import url("../styles/footer.css");
+@import url("../styles/navbar.css");
+@import url("../styles/colorScheme.css");
+@import url("../styles/hero.css");
+@import url("../styles/about.css");
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    list-style:none;
+    text-decoration:none;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+@media (max-width:1400px){
+    .nav{
+        padding:0px 50px;
+    }
+    .hero{
+        padding:0px 50px;
+    }
+    .about{
+        padding:0px 50px;
+    }
+    .testimonials{
+        padding:0px 50px;
+    }
+    footer{
+        padding:0px 50px;
+    }
+}

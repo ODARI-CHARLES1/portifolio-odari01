@@ -1,0 +1,139 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    list-style:none;
+    text-decoration:none;
+}
+
+
+
+:root{
+    --white:#fff;
+    --yellow:#ffd300;
+    --grey:#757861;
+    --dark-gray:#252032;
+    --black:#090c11;
+    --peach:       #FFC1A1;
+    --blush:       #FFB7B2;
+    --mint:        #D5F0C1;
+    --lavender:    #E0BBE4;
+    --baby-blue:   #B2F9FC;
+    --cream:       #FAF3E0;
+    --sage:        #C8D5B9;
+    --slate:       #1F2937;
+    --graphite:    #4B5563;
+}
+
+footer{
+    width: 100vw;
+    padding: 50px 200px;
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    gap: 40px;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--mint);
+    height: fit-content;
+}
+
+
+.footer-top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 100px;
+    width: 100%;
+}
+
+
+footer .icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    width: 30%;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.links h3{
+    color: var(--black);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-logo h1{
+    font-size: 40px;
+    color: var(--dark-gray);
+}
+
+.footer-logo h1 span{
+    color: var(--yellow);
+}
+
+.icons a{
+    transition:0.5s;
+    font-size: 25px;
+    color: var(--dark-gray);
+}
+.icons a:hover{
+    color: var(--yellow);
+}
+
+.links ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.links ul a{
+    color: var(--dark-gray);
+    transition: 0.5s;
+}
+.links ul a:hover{
+    color: var(--yellow);
+}
+
+.footer-top{
+    text-align: center;
+    width: 100%;
+}
+
+.footer-bottom h1{
+    font-size: 28px;
+    color: var(--dark-gray);
+}
+
+@media (max-width:768px){
+    footer{
+        padding:50px 50px;
+        gap:20px;
+        margin-top:30px;
+        align-items: flex-start;
+    }
+    .footer-top{
+        flex-direction:column;
+        gap:20px;
+    }
+    footer .icons{
+        width:100%;
+        align-items: center;
+        justify-content:flex-start;
+    }
+    .footer-bottom h1{
+        font-size: 18px;
+        text-align:flex-start;
+    }
+}
