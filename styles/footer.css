@@ -118,7 +118,7 @@ footer .icons{
 
 @media (max-width:768px){
     footer{
-        padding:50px 50px;
+        padding:50px 10px;
         gap:20px;
         margin-top:30px;
         align-items: flex-start;
@@ -131,6 +131,7 @@ footer .icons{
         width:100%;
         align-items: center;
         justify-content:flex-start;
+        gap:10px;
     }
     .footer-bottom h1{
         font-size: 18px;
